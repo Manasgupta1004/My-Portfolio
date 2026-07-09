@@ -5,6 +5,9 @@
   padding: 0;
 
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   height: 100vh;
@@ -324,7 +327,6 @@ body {
   right: 0;
   z-index: -1;
 }
-
 .service-card {
   padding: 30px;
   cursor: pointer;
@@ -365,6 +367,15 @@ body {
   background-image: linear-gradient(45deg, #3f0028, #582300);
   border: 2px solid #ff00ff;
 }
+.project-title {
+  font-size: 20px;
+  font-weight: 500;
+  background: linear-gradient(270deg, #DF8908 0%, #B415FF 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 
 @media(max-width: 768px) {
   .servicess {

@@ -3,10 +3,9 @@ import logo from '../../public/vite.svg'
 const footer = () => {
     return (
         <div className='flex flex-col gap-6 footer'>
-            <div className="footer-top flex justify-between ">
+            <div className="footer-top flex justify-between items-center ">
                 <div className="footer-top-left">
-                    <img src={logo} alt="" />
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, enim.</p>
+                    <p>Designed & Developed by Manas Gupta.</p>
                 </div>
                 <div className="footer-top-right flex items-center gap-6">
                     <div className="footer-email-input flex gap-6">
